@@ -19,4 +19,3 @@ datahub docker quickstart --stop
 datahub docker quickstart --backup --backup-file ./backup.sql
 datahub docker quickstart --restore --restore-file ./backup.sql
 ```
-awd
