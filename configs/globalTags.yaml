@@ -1,0 +1,6 @@
+urn:li:chart:(looker,baz1):
+  tags:
+  - tag: urn:li:tag:Legacy
+urn:li:dataset:(urn:li:dataPlatform:hive,SampleHiveDataset,PROD):
+  tags:
+  - tag: urn:li:tag:Legacy

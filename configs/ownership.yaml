@@ -1,0 +1,176 @@
+urn:li:dashboard:(looker,baz):
+  owners:
+  - owner: urn:li:corpGroup:bfoo
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:dataFlow:(airflow,dag_abc,PROD):
+  owners:
+  - owner: urn:li:corpuser:datahub
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:datahub
+urn:li:dataJob:(urn:li:dataFlow:(airflow,dag_abc,PROD),task_123):
+  owners:
+  - owner: urn:li:corpuser:datahub
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:datahub
+urn:li:dataJob:(urn:li:dataFlow:(airflow,dag_abc,PROD),task_456):
+  owners:
+  - owner: urn:li:corpuser:datahub
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:datahub
+urn:li:dataset:(urn:li:dataPlatform:exasol,realestate_db.sales,PROD):
+  owners:
+  - owner: urn:li:corpGroup:jdoe
+    type: CUSTOM
+    typeUrn: urn:li:ownershipType:__system__business_owner
+    source:
+      type: MANUAL
+  - owner: urn:li:corpGroup:bfoo
+    type: CUSTOM
+    typeUrn: urn:li:ownershipType:__system__technical_owner
+    source:
+      type: MANUAL
+  ownerTypes: {}
+  lastModified:
+    time: 1712677864781
+    actor: urn:li:corpuser:datahub
+urn:li:dataset:(urn:li:dataPlatform:hdfs,SampleHdfsDataset,PROD):
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  - owner: urn:li:corpuser:datahub
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:dataset:(urn:li:dataPlatform:hive,SampleHiveDataset,PROD):
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  - owner: urn:li:corpuser:datahub
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:dataset:(urn:li:dataPlatform:hive,fct_users_created,PROD):
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  - owner: urn:li:corpuser:datahub
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:dataset:(urn:li:dataPlatform:hive,fct_users_deleted,PROD):
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  - owner: urn:li:corpuser:datahub
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:dataset:(urn:li:dataPlatform:hive,logging_events,PROD):
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  - owner: urn:li:corpuser:datahub
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:dataset:(urn:li:dataPlatform:kafka,SampleKafkaDataset,PROD):
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  - owner: urn:li:corpuser:datahub
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:dataset:(urn:li:dataPlatform:s3,project/root/events/logging_events_bckp,PROD):
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  - owner: urn:li:corpuser:datahub
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:glossaryNode:ClientsAndAccounts:
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:glossaryTerm:AccountBalance:
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:glossaryTerm:CustomerAccount:
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:glossaryTerm:SavingAccount:
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:mlModel:(urn:li:dataPlatform:science,scienceModel,PROD):
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  - owner: urn:li:corpuser:datahub
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 0
+    actor: urn:li:corpuser:jdoe
+urn:li:tag:Legacy:
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
+urn:li:tag:NeedsDocumentation:
+  owners:
+  - owner: urn:li:corpuser:jdoe
+    type: DATAOWNER
+  ownerTypes: {}
+  lastModified:
+    time: 1674291843000
+    actor: urn:li:corpuser:jdoe
